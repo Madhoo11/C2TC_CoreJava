@@ -3,7 +3,7 @@ package com.cg.controlexamples;
 public class ElseIfExample {
 
 	public static void main(String[] args) {
-		String lang = "Java";
+		String lang = "Phython";
 
 		if(lang == "Python") {
 

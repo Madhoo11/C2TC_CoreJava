@@ -1,8 +1,8 @@
 package com.cg.abs;
 
-abstract class Bike{
+abstract class OfficeBike{
 
-	public Bike() {
+	public OfficeBike() {
 		super();
 		// TODO Auto-generated constructor stub
 		System.out.println("bike is created");
@@ -13,7 +13,7 @@ abstract class Bike{
 	}
 	
 }
-class Honda extends Bike{
+class HeroHonda extends OfficeBike{
 
 	@Override
 	void run() {
@@ -28,7 +28,7 @@ public class AbsConstructorExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Honda h = new Honda();
+		HeroHonda h = new HeroHonda();
 		h.run();
 		h.changeGear();
 		

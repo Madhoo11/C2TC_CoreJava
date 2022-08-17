@@ -1,37 +1,33 @@
 package com.cg.abs;
-
-
-abstract class Bike {
+abstract class Bike{
 	abstract void run();
 	abstract void getBikedetail();
-	
+    
 }
 
-class Honda extends Bike{  ////single inheritance.achieving inheritanve by extending bike class
-	
+class Yamaha extends Bike{
 
 	@Override
 	void run() {
-		System.out.println(" THE BIKE IS RUNNING SAFELY");
-		
+		System.out.println("THE BIKE IS RUNNING SAFELY");
 		
 	}
 
-@Override
-void getBikedetail() {
-	// TODO Auto-generated method stub
-	
-}           
+	@Override
+	void getBikedetail() {
+		System.out.println("THE MODEL OF THE BIKE IS RX100");
+		
+	}
 	
 }
 
-public class Main {                         // object creation
+public class Main {
+
 	public static void main(String[] args) {
-		Honda h = new Honda();
-		h.run();
-		h.getBikedetail();
-		// TODO Auto-generated method stub
-       System.out.println("the model of the bike is rx100");
+		Yamaha y = new Yamaha();
+		y.run();
+		y.getBikedetail();
+
 	}
 
 }

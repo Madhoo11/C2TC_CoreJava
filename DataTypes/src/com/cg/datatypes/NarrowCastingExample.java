@@ -40,7 +40,7 @@ public class NarrowCastingExample {
 	
 	int i = 010;//octal representation
 	int j = 07;
-     System.out.println(i);//0*8'0 + 1*8'1 + 0*8'0 = 8
+     System.out.println(i);//0*8'0 + 1*8'1 + 0*8'0 = 8//0 *8 to the power 0 +1*8 power1 ....
       System.out.println(j);//0*8'1 + 7*8'0 = 7 
 
 			}
